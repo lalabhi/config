@@ -1,0 +1,22 @@
+uuid: 6b95258e-5ae0-4ee0-ae76-94bed3923e42
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.users
+  module:
+    - text
+id: node.users.body
+field_name: body
+entity_type: node
+bundle: users
+label: 'About User'
+description: 'Few words about the user'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,57 @@
+uuid: 4b0dbca8-23ab-4105-b483-1e3c279cb2b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.users.body
+    - field.field.node.users.field_conducting
+    - field.field.node.users.field_email_id_
+    - field.field.node.users.field_experience
+    - field.field.node.users.field_name
+    - node.type.users
+  module:
+    - options
+    - user
+id: node.users.teaser
+targetEntityType: node
+bundle: users
+mode: teaser
+content:
+  field_conducting:
+    type: entity_reference_label
+    weight: 4
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  field_email_id_:
+    type: basic_string
+    weight: 1
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_experience:
+    type: list_default
+    weight: 2
+    region: content
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_name:
+    type: string
+    weight: 0
+    region: content
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true

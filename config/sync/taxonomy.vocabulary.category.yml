@@ -1,0 +1,9 @@
+uuid: dd79f519-ee0b-46a7-a7d3-037b05f0caa8
+langcode: en
+status: true
+dependencies: {  }
+name: category
+vid: category
+description: 'this will able to add new category'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,25 @@
+uuid: d95a1f5b-e2a0-4c4c-9d8b-af35abbd7755
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ba45bb7c-54a4-405b-b329-c9b4c4254c2f'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: thiswillbethebasicblockdevelopment
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:ba45bb7c-54a4-405b-b329-c9b4c4254c2f'
+settings:
+  id: 'block_content:ba45bb7c-54a4-405b-b329-c9b4c4254c2f'
+  label: 'This will be the basic block development '
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

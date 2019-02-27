@@ -1,0 +1,30 @@
+uuid: ff404b92-28db-434a-bfe5-e54d492d313a
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_experience
+field_name: field_experience
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Moderate
+      label: Moderate
+    -
+      value: Expert
+      label: Expert
+    -
+      value: 'Super Skilled'
+      label: 'Super Skilled'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

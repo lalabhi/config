@@ -1,0 +1,24 @@
+uuid: 914db9f9-ced2-4271-a2e3-d4e55b9c43a2
+langcode: en
+status: true
+dependencies: {  }
+id: manager
+label: manager
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access files overview'
+  - 'access taxonomy overview'
+  - 'administer taxonomy'
+  - 'create terms in category'
+  - 'create terms in tags'
+  - 'delete terms in category'
+  - 'delete terms in tags'
+  - 'edit terms in category'
+  - 'edit terms in tags'
+  - 'use editorial transition publish'
+  - 'use text format full_html'
+  - 'use text format restricted_html'
+  - 'view any unpublished content'
+  - 'view latest version'

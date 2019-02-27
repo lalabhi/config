@@ -1,0 +1,25 @@
+uuid: f5ef9dbf-75e0-4aeb-a017-405436fd91b7
+langcode: en
+status: true
+dependencies: {  }
+id: content_writer
+label: 'content writer'
+weight: 4
+is_admin: null
+permissions:
+  - 'access taxonomy overview'
+  - 'administer taxonomy'
+  - 'create article content'
+  - 'create page content'
+  - 'create terms in category'
+  - 'create terms in tags'
+  - 'delete terms in category'
+  - 'delete terms in tags'
+  - 'edit own article content'
+  - 'edit terms in category'
+  - 'edit terms in tags'
+  - 'revert article revisions'
+  - 'use editorial transition archive'
+  - 'use editorial transition create_new_draft'
+  - 'view article revisions'
+  - 'view latest version'

@@ -1,0 +1,14 @@
+uuid: f2b8d6eb-6da4-4351-a300-53467db51036
+name: Drupal8.6
+mail: site@mail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

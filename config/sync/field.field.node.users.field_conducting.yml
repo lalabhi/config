@@ -1,0 +1,28 @@
+uuid: 061108c9-07f1-4aad-a9d8-4fb3eef00298
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_conducting
+    - node.type.event
+    - node.type.users
+id: node.users.field_conducting
+field_name: field_conducting
+entity_type: node
+bundle: users
+label: Conducting
+description: 'the events that the user is conducting'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      event: event
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

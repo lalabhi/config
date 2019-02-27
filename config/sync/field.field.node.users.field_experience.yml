@@ -1,0 +1,21 @@
+uuid: f71c7c1b-f759-491d-a84e-f70d5f77ee1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_experience
+    - node.type.users
+  module:
+    - options
+id: node.users.field_experience
+field_name: field_experience
+entity_type: node
+bundle: users
+label: Experience
+description: 'Enter users the skill level'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
